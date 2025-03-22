@@ -17,7 +17,7 @@
 
 #  0. 필수 설치 요소
 
-- Pycharm Professional (https://www.jetbrains.com/pycharm/download/?section=windows)
+- ~~Pycharm Professional (https://www.jetbrains.com/pycharm/download/?section=windows)~~
 - MySQL (https://dev.mysql.com/downloads/installer/)
 - Git (https://git-scm.com/downloads/win)
 
@@ -51,4 +51,8 @@ DB_NAME=interview_db
 
 mysql -u root -p < setting.sql (powershell 에서 동작하지 않을 수 있습니다. Command Prompt 사용을 권장합니다.)
 
-123
+---
+
+# 2. 구현 요소
+
+- 추가 예정
