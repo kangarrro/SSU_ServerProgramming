@@ -51,3 +51,4 @@ DB_NAME=interview_db
 
 mysql -u root -p < setting.sql (powershell 에서 동작하지 않을 수 있습니다. Command Prompt 사용을 권장합니다.)
 
+123
