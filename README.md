@@ -27,7 +27,7 @@
 
 1. 터미널에서 프로젝트를 클론합니다.
 
-git clone https://github.com/rest-point/interview-app.git
+git clone https://github.com/kangarrro/SSU_ServerProgramming.git
 
 cd interview-app
 
