@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>면접 질문 목록</title>
+</head>
+<body>
+    <h1>면접 질문 목록</h1>
+
+    <!-- 질문 등록 페이지로 이동하는 링크 -->
+    <a href="{{ url_for('ask') }}">+ 새 질문 등록</a>
+
+    <ul>
+        <!-- 반복문으로 질문 목록 출력 -->
+        {% for q in questions %}
+        <li>
+            <a href="{{ url_for('detail', question_id=q.id) }}">{{ q.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,17 @@
+# Python 기본
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+VENV/
+.venv/
+
+# PyCharm 관련
+.idea/
+
+# 환경변수 파일
+.env
